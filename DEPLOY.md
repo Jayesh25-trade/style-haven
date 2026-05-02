@@ -21,7 +21,7 @@ vercel
 Accept the defaults — `vercel.json` already provides:
 
 - `buildCommand`: `bun run build`
-- `outputDirectory`: `.output/public`
+- `outputDirectory`: `dist/client`
 - SPA rewrite (`/* → /index.html`) so deep links like `/product/atlas-coat`
   and `/checkout` work on refresh.
 - 1-year immutable caching for hashed assets in `/assets/*`.
